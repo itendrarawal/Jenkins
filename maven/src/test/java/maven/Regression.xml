@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Regression" verbose="1">
+    <test name="Regression1" parallel="methods">
+        <classes>
+            
+            <class name="maven.demo1"/>
+            <class name="maven.demo2"/>
+        
+        </classes>
+    </test> 
+</suite>
